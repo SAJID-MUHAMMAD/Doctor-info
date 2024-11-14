@@ -7,142 +7,54 @@
 
 /* ===================================== FONT FAMILY ====================================== */
 
-/* From Uiverse.io by gharsh11032000 */
-.menu {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #000000;
-  width: fit-content;
-  display: flex;
-  list-style: none;
-}
-
-.menu a {
-  text-decoration: none;
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.menu .link {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 12px 36px;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.menu .link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #0a3cff;
-  z-index: -1;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.menu .link svg {
-  width: 14px;
-  height: 14px;
-  fill: #000000;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.menu .item {
+.home_dropDown {
   position: relative;
 }
 
-.menu .item .submenu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.home_dropDown_items {
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
   position: absolute;
-  top: 100%;
-  border-radius: 0 0 16px 16px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  border: 1px solid #cccccc;
-  opacity: 0;
+  left: -23px;
+  top: 190%;
+  transition: 0.5s all linear;
   visibility: hidden;
-  transform: translateY(-12px);
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-  z-index: 1;
-  pointer-events: none;
-  list-style: none;
+  opacity: 0;
+  overflow-y: scroll;
 }
-
-.menu .item:hover .submenu {
-  opacity: 1;
+.home_dropDown:hover > .home_dropDown_items {
   visibility: visible;
-  transform: translateY(0);
-  pointer-events: auto;
-  border-top: transparent;
-  border-color: #0a3cff;
+  opacity: 1;
+}
+.home_dropDown:hover .home_chevron {
+  transition: 0.3s;
+  transform: rotate(180deg);
 }
 
-.menu .item:hover .link {
-  color: #ffffff;
-  border-radius: 16px 16px 0 0;
+.home_dropDown ul li:hover {
+  background-color: #8aa4cd;
+  border-radius: 10px;
 }
+.medical_device_discount {
+  clip-path: polygon(9% 21%, 100% 20%, 88% 48%, 100% 74%, 9% 74%, 0 49%);
 
-.menu .item:hover .link::after {
-  transform: scaleX(1);
-  transform-origin: right;
+  padding: 20px;
+  width: fit-content;
 }
-
-.menu .item:hover .link svg {
-  fill: #ffffff;
-  transform: rotate(-180deg);
-}
-
-.submenu .submenu-item {
-  width: 100%;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.submenu .submenu-link {
-  display: block;
-  padding: 12px 24px;
-  width: 100%;
+.medical_device {
+  color: #828282;
   position: relative;
-  text-align: center;
-  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
-
-.submenu .submenu-item:last-child .submenu-link {
-  border-bottom: none;
-}
-
-.submenu .submenu-link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
+.medical_device::before {
+  content: " ";
+  display: block;
   width: 100%;
-  height: 100%;
-  background-color: #0a3cff;
-  z-index: -1;
-  transform-origin: left;
-  transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.submenu .submenu-link:hover:before {
-  transform: scaleX(1);
-  transform-origin: right;
-}
-
-.submenu .submenu-link:hover {
-  color: #ffffff;
+  background-color: #828282;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  left: 0;
 }
