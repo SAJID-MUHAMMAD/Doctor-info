@@ -39,6 +39,11 @@ const MedicalDevice = () => {
 
         <Slider className="" {...settings}>
           <div className="1">
+            <div className="flex justify-around pb-3 gap-5">
+              <MedicalDeviceItems />
+              <MedicalDeviceItems />
+              <MedicalDeviceItems />
+            </div>
             <div className="flex justify-around gap-5">
               <MedicalDeviceItems />
               <MedicalDeviceItems />
@@ -46,6 +51,11 @@ const MedicalDevice = () => {
             </div>
           </div>
           <div className="2">
+            <div className="flex justify-around pb-3 gap-5">
+              <MedicalDeviceItems />
+              <MedicalDeviceItems />
+              <MedicalDeviceItems />
+            </div>
             <div className="flex justify-around gap-5">
               <MedicalDeviceItems />
               <MedicalDeviceItems />

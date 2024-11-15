@@ -23,7 +23,7 @@ const DoctorItems = ({ img }) => {
         <h4 className="font-Poppins font-medium text-sm text-[#828282]">
           Total Exprience
         </h4>
-        <p className="font-Poppins font-normal text-sm text-center text-[#3B82F6] bg-[#dae0e9] rounded-full px-2 py-1 mt-2 mb-3">
+        <p className="font-Poppins font-normal text-sm text-center text-[#3B82F6] bg-[#dae0e9] rounded-full px-1 py-1 mt-2 mb-3">
           5+ Years of experience Overall
         </p>
         <h4 className="font-Poppins font-medium text-sm text-[#828282]">

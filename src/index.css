@@ -58,3 +58,10 @@
   top: 9px;
   left: 0;
 }
+.button:hover {
+  transform: scale(1.1) translateY(-3px);
+}
+
+.button:hover::before {
+  opacity: 1;
+}
