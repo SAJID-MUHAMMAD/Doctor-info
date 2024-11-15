@@ -7,12 +7,12 @@ const Banner = () => {
   return (
     <section className="bg-gradient-to-r from-[#adbccd] to-[#8cb0d8] pt-20  leading-[90px]  relative">
       <div className=" absolute top-0 left-0">
-        <img src="/public/Home-img/bannerVictor1.png" alt="bannerVictor" />
+        <img src="/Home-img/bannerVictor1.png" alt="bannerVictor" />
       </div>
       <div>
         <img
           className=" absolute bottom-0 right-0"
-          src="/public/Home-img/bannerVictor2.png"
+          src="/Home-img/bannerVictor2.png"
           alt="bannerVictor"
         />
       </div>

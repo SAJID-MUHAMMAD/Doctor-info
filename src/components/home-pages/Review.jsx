@@ -10,21 +10,21 @@ const Review = () => {
           <div className="overflow-hidden rounded-2xl  drop-shadow">
             <img
               className="w-full"
-              src="/public/Home-img/review-img1.png"
+              src="/Home-img/review-img1.png"
               alt="review-img"
             />
           </div>
           <div className="overflow-hidden rounded-2xl drop-shadow">
             <img
               className="w-full"
-              src="/public/Home-img/review-img2.png"
+              src="/Home-img/review-img2.png"
               alt="review-img"
             />
           </div>
           <div className="overflow-hidden rounded-2xl drop-shadow relative">
             <img
               className="w-full"
-              src="/public/Home-img/review-img3.png"
+              src="/Home-img/review-img3.png"
               alt="review-img"
             />
             <Link to="https://www.youtube.com/" target="blank">

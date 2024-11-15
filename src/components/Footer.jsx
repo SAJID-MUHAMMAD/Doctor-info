@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex justify-between border-b-2 pb-20 border-slate-300 ">
           <div>
             <div>
-              <img src="/public/logo.png" alt="logo" />
+              <img src="/logo.png" alt="logo" />
             </div>
             <Link
               className="font-Poppins font-normal text-xl text-[#333333] flex items-center gap-2 py-5"

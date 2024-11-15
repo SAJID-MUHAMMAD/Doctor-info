@@ -102,7 +102,7 @@ const MedicalTips = () => {
             <div className="overflow-hidden rounded-tl-[20px] rounded-tr-[20px]">
               <img
                 className="w-full"
-                src="/public/Home-img/medicalTips-img.png"
+                src="/Home-img/medicalTips-img.png"
                 alt="medicalTips-img"
               />
             </div>
@@ -111,7 +111,7 @@ const MedicalTips = () => {
                 <div className="overflow-hidden rounded-xl w-20 h-20">
                   <img
                     className="w-full h-full bg-cover bg-no-repeat"
-                    src="/public/Home-img/doctors/doctor-img1.png"
+                    src="/Home-img/doctors/doctor-img1.png"
                     alt="doctor-img"
                   />
                 </div>
@@ -154,23 +154,23 @@ const MedicalTips = () => {
           </div>
           <div className="flex flex-col gap-2">
             <MedicalTipsItems
-              img="/public/Home-img/medicalTips-img1.png"
+              img="/Home-img/medicalTips-img1.png"
               title=" Hydration and Wellness"
             />
             <MedicalTipsItems
-              img="/public/Home-img/medicalTips-img2.png"
+              img="/Home-img/medicalTips-img2.png"
               title="Preventive Care"
             />
             <MedicalTipsItems
-              img="/public/Home-img/medicalTips-img3.png"
+              img="/Home-img/medicalTips-img3.png"
               title="Chronic Condition Management"
             />
             <MedicalTipsItems
-              img="/public/Home-img/medicalTips-img4.png"
+              img="/Home-img/medicalTips-img4.png"
               title="Hydration and Wellness"
             />
             <MedicalTipsItems
-              img="/public/Home-img/medicalTips-img4.png"
+              img="/Home-img/medicalTips-img4.png"
               title="Hydration and Wellness"
             />
           </div>

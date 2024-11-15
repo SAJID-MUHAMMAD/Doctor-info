@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <div>
           <Link to="/">
-            <img src="/public/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </Link>
         </div>
         <div>

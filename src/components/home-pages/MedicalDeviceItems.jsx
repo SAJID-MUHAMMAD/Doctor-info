@@ -6,7 +6,7 @@ const MedicalDeviceItems = () => {
       <div className="rounded-xl overflow-hidden">
         <img
           className="w-full"
-          src="/public/Home-img/medicalDevice.png"
+          src="/Home-img/medicalDevice.png"
           alt="medicalDevice"
         />
       </div>

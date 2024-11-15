@@ -12,7 +12,7 @@ const FindDoctor = () => {
           <div className="overflow-hidden rounded-[20px]">
             <img
               className="w-full"
-              src="/public/Home-img/findDoctor.png"
+              src="/Home-img/findDoctor.png"
               alt="findDoctor"
             />
           </div>
