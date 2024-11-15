@@ -5,7 +5,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <section className="bg-gradient-to-r from-[#adbccd] to-[#8cb0d8] pt-20  leading-[90px]  relative">
+    <section className="banner pt-20  leading-[90px]  relative">
       <div className=" absolute top-0 left-0">
         <img src="/Home-img/bannerVictor1.png" alt="bannerVictor" />
       </div>
