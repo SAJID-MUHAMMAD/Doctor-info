@@ -5,8 +5,13 @@ import { Link } from "react-router-dom";
 const Review = () => {
   return (
     <section className="py-20">
-      <div className="container">
-        <div className="flex gap-20">
+      <div className="container max-w-[1920px] 2xl:px-20">
+        <h2 className="font-Poppins font-semibold text-[40px] w-full leading-[48px] pb-10">
+          More than <span className="text-brand">90%</span> of our users
+          consistently give us a 5-star rating, reflecting their high
+          satisfaction with our service.
+        </h2>
+        <div className="flex justify-between gap-20">
           <div className="overflow-hidden rounded-2xl  drop-shadow">
             <img
               className="w-full"

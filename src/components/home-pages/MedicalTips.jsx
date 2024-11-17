@@ -21,7 +21,7 @@ const MedicalTips = () => {
   };
   return (
     <section className="py-20">
-      <div className="container">
+      <div className="container max-w-[1920px] 2xl:px-20">
         <div className="flex justify-between border-b-2 pb-10">
           <div className="w-3/4">
             <h2 className="font-Poppins font-semibold text-4xl  pb-5 text-[#333333]">
@@ -97,7 +97,7 @@ const MedicalTips = () => {
           </Slider>
         </div>
 
-        <div className="pt-10 flex gap-5 ">
+        <div className="pt-10 flex gap-5 justify-between">
           <div className="">
             <div className="overflow-hidden rounded-tl-[20px] rounded-tr-[20px]">
               <img

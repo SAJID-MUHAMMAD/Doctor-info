@@ -2,7 +2,7 @@ import React from "react";
 
 const DoctorItems = ({ img }) => {
   return (
-    <div className="p-3 mb-3 w-1/4 bg-white drop-shadow	 hover:brightness-90	 cursor-pointer rounded-xl">
+    <div className="p-3 mb-3 w-1/4 bg-white drop-shadow	 hover:drop-shadow-xl	 cursor-pointer rounded-xl">
       <div className="rounded-xl overflow-hidden">
         <img className="w-full" src={img} alt="doctor-img" />
       </div>

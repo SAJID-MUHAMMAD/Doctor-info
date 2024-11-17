@@ -30,14 +30,14 @@ const Banner = () => {
         <div className="bg-white py-7 w-3/4 2xl:w-[950px] px-3 m-auto rounded-xl flex flex-col justidy-around relative bottom-[-90px] shadow">
           <div className="flex justify-around gap-3">
             {/* ============================================================================= */}
-            <div className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer">
+            <div
+              onClick={() => setShowDivision(!showDivision)}
+              className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer"
+            >
               <p className="font-Poppins font-normal text-base text-[#828282]">
                 Division
               </p>
-              <div
-                onClick={() => setShowDivision(!showDivision)}
-                className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative"
-              >
+              <div className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative">
                 <h4 className=" flex items-center justify-between gap-5">
                   Rajshahi <FaChevronDown className="home_chevron " />
                 </h4>
@@ -64,14 +64,14 @@ const Banner = () => {
               </div>
             </div>
             {/* ============================================================================= */}
-            <div className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer">
+            <div
+              onClick={() => setShowDistrict(!showDistrict)}
+              className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer"
+            >
               <p className="font-Poppins font-normal text-base text-[#828282]">
                 District
               </p>
-              <div
-                onClick={() => setShowDistrict(!showDistrict)}
-                className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative"
-              >
+              <div className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative">
                 <h4 className=" flex items-center justify-between gap-5">
                   Chapai Nawabganj <FaChevronDown className="home_chevron " />
                 </h4>
@@ -100,14 +100,14 @@ const Banner = () => {
 
             {/* ============================================================================= */}
             {/* ============================================================================= */}
-            <div className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer">
+            <div
+              onClick={() => setShowSpecialist(!showSpecialist)}
+              className="p-5 border-2 w-[300px] rounded-xl leading-3 cursor-pointer"
+            >
               <p className="font-Poppins font-normal text-base text-[#828282]">
                 Specialist
               </p>
-              <div
-                onClick={() => setShowSpecialist(!showSpecialist)}
-                className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative"
-              >
+              <div className="text-2xl font-Poppins font-medium text-[#333333] home_dropDown relative">
                 <h4 className=" flex items-center justify-between gap-5">
                   General Physician <FaChevronDown className="home_chevron " />
                 </h4>
