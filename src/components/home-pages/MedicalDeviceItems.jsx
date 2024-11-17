@@ -2,7 +2,7 @@ import React from "react";
 
 const MedicalDeviceItems = () => {
   return (
-    <div className="p-5 my-5 bg-white drop-shadow hover:brightness-90	 cursor-pointer rounded-xl">
+    <div className="p-5 my-5 bg-white drop-shadow hover:drop-shadow-xl	 cursor-pointer rounded-xl">
       <div className="rounded-xl overflow-hidden">
         <img
           className="w-full"
