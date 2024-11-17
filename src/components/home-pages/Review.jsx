@@ -11,24 +11,24 @@ const Review = () => {
           consistently give us a 5-star rating, reflecting their high
           satisfaction with our service.
         </h2>
-        <div className="flex justify-between gap-20">
-          <div className="overflow-hidden rounded-2xl  drop-shadow">
+        <div className="flex justify-between gap-5">
+          <div className="overflow-hidden rounded-2xl  drop-shadow w-[35%] h-[519px]">
             <img
-              className="w-full"
+              className="w-full h-full"
               src="/Home-img/review-img1.png"
               alt="review-img"
             />
           </div>
-          <div className="overflow-hidden rounded-2xl drop-shadow">
+          <div className="overflow-hidden rounded-2xl drop-shadow w-[35%] h-[519px]">
             <img
-              className="w-full"
+              className="w-full h-full"
               src="/Home-img/review-img2.png"
               alt="review-img"
             />
           </div>
-          <div className="overflow-hidden rounded-2xl drop-shadow relative">
+          <div className="overflow-hidden rounded-2xl drop-shadow w-[35%] h-[519px] relative">
             <img
-              className="w-full"
+              className="w-full h-full"
               src="/Home-img/review-img3.png"
               alt="review-img"
             />
