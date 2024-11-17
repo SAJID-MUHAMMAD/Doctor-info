@@ -34,7 +34,7 @@ const MedicalTips = () => {
             </p>
           </div>
           <div className="w-1/4 flex items-end justify-end mr-3 ">
-            <button className="button p-5 border-[1px] border-brand text-brand rounded-full flex items-center  gap-2 text-xl font-Poppins font-medium shadow">
+            <button className="p-5 border-[1px] border-brand text-brand hover:bg-brand hover:text-white hover:border-none rounded-full flex items-center  gap-2 text-xl font-Poppins font-medium shadow">
               See All Tips <FaArrowRightLong />
             </button>
           </div>
