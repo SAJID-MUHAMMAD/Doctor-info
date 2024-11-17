@@ -9,6 +9,9 @@ export default {
       colors: {
         brand: "#3B82F6",
       },
+      screens: {
+        xxl: "1300px",
+      },
     },
     container: {
       center: true,

@@ -21,7 +21,7 @@ const MedicalTips = () => {
   };
   return (
     <section className="py-20">
-      <div className="container max-w-[1920px] 2xl:px-20">
+      <div className="container max-w-[1920px] xxl:px-20">
         <div className="flex justify-between border-b-2 pb-10">
           <div className="w-3/4">
             <h2 className="font-Poppins font-semibold text-4xl  pb-5 text-[#333333]">

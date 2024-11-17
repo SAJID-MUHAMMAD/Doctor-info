@@ -18,7 +18,7 @@ const Banner = () => {
           alt="bannerVictor"
         />
       </div>
-      <div className="max-w-[1920px] 2xl:pr-20 container relative ">
+      <div className="max-w-[1920px] xxl:pr-20 container relative ">
         <h1 className="text-7xl font-Poppins font-semibold text-center w-[822px] m-auto">
           Find the Best Doctors Near You in Bangladesh
         </h1>

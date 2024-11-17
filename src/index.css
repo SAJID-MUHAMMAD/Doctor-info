@@ -29,10 +29,10 @@
   visibility: visible;
   opacity: 1;
 } */
-.home_dropDown:hover .home_chevron {
+/* .home_dropDown:hover .home_chevron {
   transition: 0.3s;
   transform: rotate(180deg);
-}
+} */
 
 .home_dropDown ul li:hover {
   background-color: #8aa4cd;

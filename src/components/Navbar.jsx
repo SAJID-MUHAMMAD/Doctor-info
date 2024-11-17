@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className=" bg-[#FFFFFF] border py-10">
-      <div className="container max-w-[1920px] 2xl:px-20 flex items-center justify-between">
+      <div className="container max-w-[1920px] xxl:px-20 flex items-center justify-between">
         <div>
           <Link to="/">
             <img src="/logo.png" alt="logo" />
@@ -19,7 +19,7 @@ const Navbar = () => {
               <Link to="/">Specialist</Link>
             </li>
             <li className="hover:text-brand">
-              <Link to="/">Shop</Link>
+              <Link to="/shop">Shop</Link>
             </li>
             <li className="hover:text-brand">
               <Link to="/">Leave a Review</Link>

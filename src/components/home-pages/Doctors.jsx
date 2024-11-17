@@ -31,7 +31,7 @@ const Doctors = () => {
 
   return (
     <section className="pt-40">
-      <div className="container max-w-[1920px] 2xl:px-20 mb-10">
+      <div className="container max-w-[1920px] xxl:px-20 mb-10">
         <h2 className="font-Poppins font-semibold text-4xl text-center pb-5">
           Expert Doctors You Can Trust{" "}
         </h2>
