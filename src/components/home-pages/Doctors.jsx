@@ -31,19 +31,19 @@ const Doctors = () => {
 
   return (
     <section className="pt-40">
-      <div className="container mb-10">
+      <div className="container max-w-[1920px] 2xl:px-20 mb-10">
         <h2 className="font-Poppins font-semibold text-4xl text-center pb-5">
           Expert Doctors You Can Trust{" "}
         </h2>
         <Slider className="" {...settings}>
           <div className="1">
-            <div className="flex justify-between ">
+            <div className="flex gap-4 justify-between ">
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img2.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img3.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img4.png" />
             </div>
-            <div className="flex pt-3 justify-between ">
+            <div className="flex gap-4 pt-3 justify-between ">
               <DoctorItems img="/Home-img/doctors/doctor-img5.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img6.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img7.png" />
@@ -51,13 +51,13 @@ const Doctors = () => {
             </div>
           </div>
           <div className="2">
-            <div className="flex justify-between ">
+            <div className="flex gap-4 justify-between ">
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
             </div>
-            <div className="flex pt-3 justify-between ">
+            <div className="flex gap-4 pt-3 justify-between ">
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />
               <DoctorItems img="/Home-img/doctors/doctor-img1.png" />

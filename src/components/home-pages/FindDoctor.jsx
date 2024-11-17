@@ -4,11 +4,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const FindDoctor = () => {
   return (
     <section className="bg-[#becde2] py-20 ">
-      <div className="container">
+      <div className="container max-w-[1920px] 2xl:px-20">
         <h2 className="font-Poppins font-semibold text-4xl text-center pb-14 text-[#333333]">
           Your Key to Finding the Right Doctor
         </h2>
-        <div className="flex justify-between gap-20">
+        <div className="flex gap-20">
           <div className="overflow-hidden rounded-[20px]">
             <img
               className="w-full"

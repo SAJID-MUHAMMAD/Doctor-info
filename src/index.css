@@ -21,14 +21,14 @@
   left: -23px;
   top: 190%;
   transition: 0.5s all linear;
-  visibility: hidden;
-  opacity: 0;
+
   overflow-y: scroll;
+  z-index: 1;
 }
-.home_dropDown:hover > .home_dropDown_items {
+/* .home_dropDown:hover > .home_dropDown_items {
   visibility: visible;
   opacity: 1;
-}
+} */
 .home_dropDown:hover .home_chevron {
   transition: 0.3s;
   transform: rotate(180deg);
