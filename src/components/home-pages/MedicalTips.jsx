@@ -16,12 +16,12 @@ const MedicalTips = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplaySpeed: 2000,
-    autoplay: true,
+    // autoplay: true,
     arrows: false,
   };
   return (
     <section className="py-20">
-      <div className="container max-w-[1920px] xxl:px-20">
+      <div className="container max-w-[1280px]">
         <div className="flex justify-between border-b-2 pb-10">
           <div className="w-3/4">
             <h2 className="font-Poppins font-semibold text-4xl  pb-5 text-[#333333]">
@@ -44,52 +44,53 @@ const MedicalTips = () => {
           <Slider {...settings}>
             <div>
               <div className="flex gap-3 justify-between">
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
                   Latest Tips
                 </p>
 
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Nutrition and Diet
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Physical Fitness
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Mental Well-being
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Preventive Care
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Hydration and Wellness
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+
+                <p className="font-Poppins font-normal text-base w-fit text-[#4F4F4F] border-[1px] bg-white hover:bg-brand hover:text-white p-[10px] rounded-full">
                   Chronic Condition Management
                 </p>
               </div>
             </div>
             <div>
               <div className="flex gap-3 justify-between">
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Latest Tips
                 </p>
 
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Nutrition and Diet
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Physical Fitness
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Mental Well-being
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Preventive Care
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Hydration and Wellness
                 </p>
-                <p className="font-Poppins font-normal w-fit text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-2 rounded-full">
+                <p className="font-Poppins font-normal  text-base text-[#4F4F4F] drop-shadow border-[1px] hover:bg-brand hover:text-white p-[10px] w-fit rounded-full">
                   Chronic Condition Management
                 </p>
               </div>

@@ -7,7 +7,7 @@ const Banner = () => {
   const [showDistrict, setShowDistrict] = useState(false);
   const [showSpecialist, setShowSpecialist] = useState(false);
   return (
-    <section className="banner pt-20 relative">
+    <section className="bg-bgColor pt-20 relative">
       <div className=" absolute top-0 left-0">
         <img src="/Home-img/bannerVictor1.png" alt="bannerVictor" />
       </div>
@@ -18,7 +18,7 @@ const Banner = () => {
           alt="bannerVictor"
         />
       </div>
-      <div className="max-w-[1920px] xxl:px-20 container relative ">
+      <div className="max-w-[1280px] container relative ">
         <h1 className="text-7xl font-Poppins font-semibold text-center w-[822px] m-auto">
           Find the Best Doctors Near You in Bangladesh
         </h1>

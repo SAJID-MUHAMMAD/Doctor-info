@@ -7,8 +7,8 @@ const Report = () => {
   const [showSpecialist, setShowSpecialist] = useState(false);
   const [showDoctor, setShowDoctor] = useState(false);
   return (
-    <section className="py-20 bg-[#dae0e9]">
-      <div className="container max-w-[1920px] xxl:px-20">
+    <section className="py-20 bg-bgColor">
+      <div className="container max-w-[1280px] ">
         <div className="flex flex-col items-center justify-center pb-10">
           <h2 className="font-Poppins font-semibold text-4xl text-center  pb-5 text-[#333333] w-[415px]">
             Report <span className="text-red-500">Incorrect</span> Doctor

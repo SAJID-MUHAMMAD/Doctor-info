@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className=" bg-[#FFFFFF] border py-10">
-      <div className="container max-w-[1920px] xxl:px-20 flex items-center justify-between">
+    <nav className=" bg-[#FFFFFF] border py-10 ">
+      <div className="container max-w-[1280px] flex items-center justify-between">
         <div>
           <Link to="/">
             <img src="/logo.png" alt="logo" />

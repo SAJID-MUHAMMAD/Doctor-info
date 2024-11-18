@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         brand: "#3B82F6",
+        bgColor: "rgba(59, 130, 246, 0.1)",
       },
       screens: {
         xxl: "1300px",
