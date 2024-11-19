@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Review = () => {
   return (
     <section className="py-20">
-      <div className="container max-w-[1280px] ">
+      <div className="container max-w-[1280px] xxl:max-w-[1440px] xxl:px-20">
         <h2 className="font-Poppins font-semibold text-[40px] w-full leading-[48px] pb-10">
           More than <span className="text-brand">90%</span> of our users
           consistently give us a 5-star rating, reflecting their high

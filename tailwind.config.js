@@ -11,7 +11,7 @@ export default {
         bgColor: "rgba(59, 130, 246, 0.1)",
       },
       screens: {
-        xxl: "1300px",
+        xxl: "1440px",
       },
     },
     container: {

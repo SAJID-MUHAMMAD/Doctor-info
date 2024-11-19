@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const FindDoctor = () => {
   return (
     <section className=" bg-bgColor py-20">
-      <div className="container max-w-[1280px] ">
+      <div className="container max-w-[1280px] xxl:max-w-[1440px] xxl:px-20 ">
         <h2 className="font-Poppins font-semibold text-4xl text-center pb-14 text-[#333333]">
           Your Key to Finding the Right Doctor
         </h2>
