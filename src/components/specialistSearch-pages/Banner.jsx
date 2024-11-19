@@ -1,34 +1,14 @@
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaChevronDown } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-
 const Banner = () => {
   const [showDivision, setShowDivision] = useState(false);
   const [showDistrict, setShowDistrict] = useState(false);
   const [showSpecialist, setShowSpecialist] = useState(false);
   return (
-    <section className="bg-bgColor pt-20 relative">
-      <div className=" absolute top-0 left-0">
-        <img src="/Home-img/bannerVictor1.png" alt="bannerVictor" />
-      </div>
-      <div>
-        <img
-          className=" absolute bottom-0 right-0"
-          src="/Home-img/bannerVictor2.png"
-          alt="bannerVictor"
-        />
-      </div>
-      <div className="max-w-[1280px] xxl:max-w-[1440px] xxl:px-20 container relative ">
-        <h1 className="text-7xl font-Poppins font-semibold text-center w-[822px] m-auto">
-          Find the Best Doctors Near You in Bangladesh
-        </h1>
-        <p className="text-xl font-Poppins font-normal text-[#4F4F4F] text-center w-[630px] pt-14  m-auto">
-          Find and Connect with the Most Recommended Doctors in Bangladesh
-          Through Our Extensive Database of Local Healthcare Professionals
-        </p>
-        {/* ===================================================== DROPDOWN ============================================================== */}
-        <div className="bg-white py-7 w-3/4 2xl:w-[950px] px-3 m-auto rounded-xl flex flex-col justidy-around relative bottom-[-90px] drop-shadow">
+    <section className="pt-20 bg-bgColor">
+      <div className="container  max-w-[1280px] xxl:max-w-[1440px] xxl:px-20">
+        <div className="bg-white py-7 w-3/4 2xl:w-[950px] px-3 m-auto rounded-xl flex flex-col justidy-around relative bottom-[-90px] -mt-20 drop-shadow">
           <div className="flex justify-around gap-3">
             {/* ============================================================================= */}
             <div
@@ -143,15 +123,12 @@ const Banner = () => {
               type="text"
               placeholder="Search by Doctor's name & Specialty"
             />
-            <Link
-              to="/SpecialistSearch"
-              className="flex items-center gap-3 leading-3 rounded-xl py-6 px-8 bg-brand text-xl font-normal font-Poppins text-white"
-            >
+            <button className="flex items-center gap-3 leading-3 rounded-xl py-6 px-8 bg-brand text-xl font-normal font-Poppins text-white">
               <span>
                 <CiSearch />
               </span>
               Find Doctors
-            </Link>
+            </button>
           </div>
         </div>
       </div>

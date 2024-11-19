@@ -9,6 +9,7 @@ export default {
       colors: {
         brand: "#3B82F6",
         bgColor: "rgba(59, 130, 246, 0.1)",
+        shadow: "rgba(59, 130, 246, 0.38)",
       },
       screens: {
         xxl: "1440px",
