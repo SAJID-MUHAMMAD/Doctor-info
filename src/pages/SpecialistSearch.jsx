@@ -75,8 +75,8 @@ const SpecialistSearch = () => {
                 src="/specialist-img/sp-add.png"
                 alt="sp-add"
               />
-            </div>
-            <div className="overflow-hidden rounded-3xl">
+            </div> */}
+            {/* <div className="overflow-hidden rounded-3xl">
               <img
                 className="w-full"
                 src="/specialist-img/sp-add.png"
