@@ -98,7 +98,7 @@ const SpecialistSearchItems = () => {
           </div>
         </div>
         {/* doctor details start  */}
-        <button className="font-Poppins font-normal text-base text-white py-3 px-5 bg-brand shadow-xl shadow-shadow rounded-full">
+        <button className="font-Poppins font-normal text-base text-white py-3 px-5 bg-brand shadow-xl hover:shadow-shadow rounded-full">
           Show Number
         </button>
       </div>

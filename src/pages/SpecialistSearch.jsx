@@ -15,7 +15,7 @@ const SpecialistSearch = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplaySpeed: 2000,
-    // autoplay: true,
+    autoplay: true,
     arrows: false,
   };
   return (
@@ -54,49 +54,23 @@ const SpecialistSearch = () => {
                 See All
               </Link>
             </div>
-            <div className="pb-5">
-              {/* <Slider {...settings}>
+            <div className="w-[410px]">
+              <Slider {...settings}>
                 <div>
                   <div className="w-[400px] h-[400px] bg-bgColor rounded-xl"></div>
                 </div>
-              </Slider> */}
-              <div className="w-[413px] h-[400px] bg-[#F2F2F2] rounded-xl"></div>
+                <div>
+                  <div className="w-[400px] h-[400px] bg-bgColor rounded-xl"></div>
+                </div>
+              </Slider>
             </div>
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                className="w-full"
-                src="/specialist-img/sp-add.png"
-                alt="sp-add"
-              />
-            </div>
-            {/* <div className="overflow-hidden rounded-3xl">
+            <div className="overflow-hidden rounded-3xl mt-10 w-[410px]">
               <img
                 className="w-full"
                 src="/specialist-img/sp-add.png"
                 alt="sp-add"
               />
             </div>
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                className="w-full"
-                src="/specialist-img/sp-add.png"
-                alt="sp-add"
-              />
-            </div>
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                className="w-full"
-                src="/specialist-img/sp-add.png"
-                alt="sp-add"
-              />
-            </div> */}
-            {/* <div className="overflow-hidden rounded-3xl">
-              <img
-                className="w-full"
-                src="/specialist-img/sp-add.png"
-                alt="sp-add"
-              />
-            </div> */}
           </div>
         </div>
       </div>
