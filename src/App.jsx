@@ -10,6 +10,8 @@ import Shop from "./pages/Shop";
 import Specialist from "./pages/Specialist";
 import SpecialistSearch from "./pages/SpecialistSearch";
 import DoctorInformation from "./pages/DoctorInformation";
+import Review from "./pages/Review";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   const router = createBrowserRouter(
@@ -20,6 +22,8 @@ function App() {
         <Route path="/Specialist" element={<Specialist />} />
         <Route path="/SpecialistSearch" element={<SpecialistSearch />} />
         <Route path="/DoctorInformation" element={<DoctorInformation />} />
+        <Route path="/Review" element={<Review />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
       </Route>
     )
   );

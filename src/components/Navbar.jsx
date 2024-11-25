@@ -22,10 +22,10 @@ const Navbar = () => {
               <Link to="/Shop">Shop</Link>
             </li>
             <li className="hover:text-brand">
-              <Link to="/">Leave a Review</Link>
+              <Link to="/Review">Leave a Review</Link>
             </li>
             <li className="hover:text-brand">
-              <Link to="/">About Us</Link>
+              <Link to="/AboutUs">About Us</Link>
             </li>
           </ul>
         </div>
