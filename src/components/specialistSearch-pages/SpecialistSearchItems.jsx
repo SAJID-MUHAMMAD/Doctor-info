@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const SpecialistSearchItems = () => {
   return (
-    <Link to="">
+    <Link to="/DoctorInformation">
       <div className="p-5 rounded-xl border">
         {/* doctor titles */}
         <div className="flex gap-24 pb-5">
